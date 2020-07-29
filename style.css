@@ -1,0 +1,89 @@
+body {
+  background: #F7F9FF;
+  color: #1b7c64;
+  font-family: 'Epilogue', sans-serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Epilogue', sans-serif;
+}
+
+h1 {
+  color: #324742;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #324742;
+}
+
+a {
+  text-decoration: none;
+  color:#1b7c64;
+}
+a :hover {
+  color: #070707;
+}
+
+p {
+text-align: center;
+}
+
+div {
+  width: 500px;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center
+}
+
+.card {
+  background-color: #f7f9ff;
+  border:0.25em;
+  border-style: double;
+  padding: 40px;
+  box-shadow: 10px 5px 5px #3a917b;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+button {
+  background-color: #3a917b;
+  color: white;
+  width: fit-content;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+  color: rgb(33, 23, 239, 0.87);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+#introduction {
+  margin-bottom: 40px;
+}
