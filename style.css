@@ -1,6 +1,6 @@
 body {
-  background: #F7F9FF;
-  color: #1b7c64;
+  background: #f7f4dc;
+  color: #070707;
   font-family: 'Epilogue', sans-serif;
   font-variant: small-caps;
   font-size: 16px;
@@ -27,19 +27,14 @@ a {
   text-decoration: none;
   color:#1b7c64;
 }
-a :hover {
-  color: #070707;
-}
 
 p {
 text-align: center;
 }
 
-div {
-  width: 500px;
-  margin: 100px auto;
-  align-items: center;
-  justify-content: center
+.container {
+width: 500px;
+margin: 40px auto;
 }
 
 .card {
@@ -56,14 +51,19 @@ div {
   border-radius: 50%;
 }
 
-button {
+.btn-green {
   background-color: #3a917b;
   color: white;
-  width: fit-content;
-  height: 35px;
+  padding: 15px 20px;
   border-radius: 15px;
+  border:1px solid black;
   font-size: 18px;
   font-family: 'Epilogue', sans-serif;
+}
+
+.btn-green:hover {
+  background-color:#af493275;
+  color: #070707;
 }
 
 .list-inline {
